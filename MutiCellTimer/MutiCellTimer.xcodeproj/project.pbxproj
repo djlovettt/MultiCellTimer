@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8494C0EF1F298E9400536395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494C0EE1F298E9400536395 /* main.m */; };
+		8494C0F21F298E9400536395 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494C0F11F298E9400536395 /* AppDelegate.m */; };
+		8494C0F51F298E9400536395 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494C0F41F298E9400536395 /* ViewController.m */; };
+		8494C0F81F298E9400536395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8494C0F61F298E9400536395 /* Main.storyboard */; };
+		8494C0FA1F298E9400536395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8494C0F91F298E9400536395 /* Assets.xcassets */; };
+		8494C0FD1F298E9400536395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8494C0FB1F298E9400536395 /* LaunchScreen.storyboard */; };
+		8494C1081F298E9400536395 /* MutiCellTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494C1071F298E9400536395 /* MutiCellTimerTests.m */; };
+		8494C1131F298E9400536395 /* MutiCellTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494C1121F298E9400536395 /* MutiCellTimerUITests.m */; };
+		8494C1231F298F7500536395 /* TimerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494C1211F298F7500536395 /* TimerTableViewCell.m */; };
+		8494C1271F2996D200536395 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494C1261F2996D200536395 /* CellModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8494C1041F298E9400536395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8494C0E21F298E9400536395 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8494C0E91F298E9400536395;
+			remoteInfo = MutiCellTimer;
+		};
+		8494C10F1F298E9400536395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8494C0E21F298E9400536395 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8494C0E91F298E9400536395;
+			remoteInfo = MutiCellTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8494C0EA1F298E9400536395 /* MutiCellTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutiCellTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8494C0EE1F298E9400536395 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8494C0F01F298E9400536395 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8494C0F11F298E9400536395 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8494C0F31F298E9400536395 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8494C0F41F298E9400536395 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8494C0F71F298E9400536395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8494C0F91F298E9400536395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8494C0FC1F298E9400536395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8494C0FE1F298E9400536395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8494C1031F298E9400536395 /* MutiCellTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutiCellTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8494C1071F298E9400536395 /* MutiCellTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutiCellTimerTests.m; sourceTree = "<group>"; };
+		8494C1091F298E9400536395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8494C10E1F298E9400536395 /* MutiCellTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutiCellTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8494C1121F298E9400536395 /* MutiCellTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutiCellTimerUITests.m; sourceTree = "<group>"; };
+		8494C1141F298E9400536395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8494C1201F298F7500536395 /* TimerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerTableViewCell.h; sourceTree = "<group>"; };
+		8494C1211F298F7500536395 /* TimerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerTableViewCell.m; sourceTree = "<group>"; };
+		8494C1251F2996D200536395 /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		8494C1261F2996D200536395 /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8494C0E71F298E9400536395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8494C1001F298E9400536395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8494C10B1F298E9400536395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8494C0E11F298E9400536395 = {
+			isa = PBXGroup;
+			children = (
+				8494C0EC1F298E9400536395 /* MutiCellTimer */,
+				8494C1061F298E9400536395 /* MutiCellTimerTests */,
+				8494C1111F298E9400536395 /* MutiCellTimerUITests */,
+				8494C0EB1F298E9400536395 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8494C0EB1F298E9400536395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8494C0EA1F298E9400536395 /* MutiCellTimer.app */,
+				8494C1031F298E9400536395 /* MutiCellTimerTests.xctest */,
+				8494C10E1F298E9400536395 /* MutiCellTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8494C0EC1F298E9400536395 /* MutiCellTimer */ = {
+			isa = PBXGroup;
+			children = (
+				8494C0F01F298E9400536395 /* AppDelegate.h */,
+				8494C0F11F298E9400536395 /* AppDelegate.m */,
+				8494C0F31F298E9400536395 /* ViewController.h */,
+				8494C0F41F298E9400536395 /* ViewController.m */,
+				8494C1251F2996D200536395 /* CellModel.h */,
+				8494C1261F2996D200536395 /* CellModel.m */,
+				8494C1201F298F7500536395 /* TimerTableViewCell.h */,
+				8494C1211F298F7500536395 /* TimerTableViewCell.m */,
+				8494C0F61F298E9400536395 /* Main.storyboard */,
+				8494C0F91F298E9400536395 /* Assets.xcassets */,
+				8494C0FB1F298E9400536395 /* LaunchScreen.storyboard */,
+				8494C0FE1F298E9400536395 /* Info.plist */,
+				8494C0ED1F298E9400536395 /* Supporting Files */,
+			);
+			path = MutiCellTimer;
+			sourceTree = "<group>";
+		};
+		8494C0ED1F298E9400536395 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8494C0EE1F298E9400536395 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8494C1061F298E9400536395 /* MutiCellTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8494C1071F298E9400536395 /* MutiCellTimerTests.m */,
+				8494C1091F298E9400536395 /* Info.plist */,
+			);
+			path = MutiCellTimerTests;
+			sourceTree = "<group>";
+		};
+		8494C1111F298E9400536395 /* MutiCellTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8494C1121F298E9400536395 /* MutiCellTimerUITests.m */,
+				8494C1141F298E9400536395 /* Info.plist */,
+			);
+			path = MutiCellTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8494C0E91F298E9400536395 /* MutiCellTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8494C1171F298E9400536395 /* Build configuration list for PBXNativeTarget "MutiCellTimer" */;
+			buildPhases = (
+				8494C0E61F298E9400536395 /* Sources */,
+				8494C0E71F298E9400536395 /* Frameworks */,
+				8494C0E81F298E9400536395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutiCellTimer;
+			productName = MutiCellTimer;
+			productReference = 8494C0EA1F298E9400536395 /* MutiCellTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8494C1021F298E9400536395 /* MutiCellTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8494C11A1F298E9400536395 /* Build configuration list for PBXNativeTarget "MutiCellTimerTests" */;
+			buildPhases = (
+				8494C0FF1F298E9400536395 /* Sources */,
+				8494C1001F298E9400536395 /* Frameworks */,
+				8494C1011F298E9400536395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8494C1051F298E9400536395 /* PBXTargetDependency */,
+			);
+			name = MutiCellTimerTests;
+			productName = MutiCellTimerTests;
+			productReference = 8494C1031F298E9400536395 /* MutiCellTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8494C10D1F298E9400536395 /* MutiCellTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8494C11D1F298E9400536395 /* Build configuration list for PBXNativeTarget "MutiCellTimerUITests" */;
+			buildPhases = (
+				8494C10A1F298E9400536395 /* Sources */,
+				8494C10B1F298E9400536395 /* Frameworks */,
+				8494C10C1F298E9400536395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8494C1101F298E9400536395 /* PBXTargetDependency */,
+			);
+			name = MutiCellTimerUITests;
+			productName = MutiCellTimerUITests;
+			productReference = 8494C10E1F298E9400536395 /* MutiCellTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8494C0E21F298E9400536395 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = WisdomParents;
+				TargetAttributes = {
+					8494C0E91F298E9400536395 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B9UBGHBK7U;
+						ProvisioningStyle = Automatic;
+					};
+					8494C1021F298E9400536395 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B9UBGHBK7U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8494C0E91F298E9400536395;
+					};
+					8494C10D1F298E9400536395 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B9UBGHBK7U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8494C0E91F298E9400536395;
+					};
+				};
+			};
+			buildConfigurationList = 8494C0E51F298E9400536395 /* Build configuration list for PBXProject "MutiCellTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8494C0E11F298E9400536395;
+			productRefGroup = 8494C0EB1F298E9400536395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8494C0E91F298E9400536395 /* MutiCellTimer */,
+				8494C1021F298E9400536395 /* MutiCellTimerTests */,
+				8494C10D1F298E9400536395 /* MutiCellTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8494C0E81F298E9400536395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8494C0FD1F298E9400536395 /* LaunchScreen.storyboard in Resources */,
+				8494C0FA1F298E9400536395 /* Assets.xcassets in Resources */,
+				8494C0F81F298E9400536395 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8494C1011F298E9400536395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8494C10C1F298E9400536395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8494C0E61F298E9400536395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8494C0F51F298E9400536395 /* ViewController.m in Sources */,
+				8494C0F21F298E9400536395 /* AppDelegate.m in Sources */,
+				8494C0EF1F298E9400536395 /* main.m in Sources */,
+				8494C1271F2996D200536395 /* CellModel.m in Sources */,
+				8494C1231F298F7500536395 /* TimerTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8494C0FF1F298E9400536395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8494C1081F298E9400536395 /* MutiCellTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8494C10A1F298E9400536395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8494C1131F298E9400536395 /* MutiCellTimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8494C1051F298E9400536395 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8494C0E91F298E9400536395 /* MutiCellTimer */;
+			targetProxy = 8494C1041F298E9400536395 /* PBXContainerItemProxy */;
+		};
+		8494C1101F298E9400536395 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8494C0E91F298E9400536395 /* MutiCellTimer */;
+			targetProxy = 8494C10F1F298E9400536395 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8494C0F61F298E9400536395 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8494C0F71F298E9400536395 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8494C0FB1F298E9400536395 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8494C0FC1F298E9400536395 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8494C1151F298E9400536395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8494C1161F298E9400536395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8494C1181F298E9400536395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B9UBGHBK7U;
+				INFOPLIST_FILE = MutiCellTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisdomparents.MutiCellTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8494C1191F298E9400536395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B9UBGHBK7U;
+				INFOPLIST_FILE = MutiCellTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisdomparents.MutiCellTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8494C11B1F298E9400536395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B9UBGHBK7U;
+				INFOPLIST_FILE = MutiCellTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisdomparents.MutiCellTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MutiCellTimer.app/MutiCellTimer";
+			};
+			name = Debug;
+		};
+		8494C11C1F298E9400536395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B9UBGHBK7U;
+				INFOPLIST_FILE = MutiCellTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisdomparents.MutiCellTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MutiCellTimer.app/MutiCellTimer";
+			};
+			name = Release;
+		};
+		8494C11E1F298E9400536395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B9UBGHBK7U;
+				INFOPLIST_FILE = MutiCellTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisdomparents.MutiCellTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MutiCellTimer;
+			};
+			name = Debug;
+		};
+		8494C11F1F298E9400536395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B9UBGHBK7U;
+				INFOPLIST_FILE = MutiCellTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisdomparents.MutiCellTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MutiCellTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8494C0E51F298E9400536395 /* Build configuration list for PBXProject "MutiCellTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8494C1151F298E9400536395 /* Debug */,
+				8494C1161F298E9400536395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8494C1171F298E9400536395 /* Build configuration list for PBXNativeTarget "MutiCellTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8494C1181F298E9400536395 /* Debug */,
+				8494C1191F298E9400536395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8494C11A1F298E9400536395 /* Build configuration list for PBXNativeTarget "MutiCellTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8494C11B1F298E9400536395 /* Debug */,
+				8494C11C1F298E9400536395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8494C11D1F298E9400536395 /* Build configuration list for PBXNativeTarget "MutiCellTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8494C11E1F298E9400536395 /* Debug */,
+				8494C11F1F298E9400536395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8494C0E21F298E9400536395 /* Project object */;
+}
